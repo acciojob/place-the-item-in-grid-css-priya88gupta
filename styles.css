@@ -6,7 +6,7 @@
 	background-color:red;
 	gap: 2px;
 	overflow: hidden;
-	grid-template-columns: repeat(100px 100px);
-	grid-template-row: repeat(100px 100px);
+	grid-template-columns: repeat(492px 492px);
+	grid-template-row: repeat(492px 492px);
 	
 }
