@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+	width: 50%;
+	display: grid;
+	background-color:red;
+	gap: 2px;
+	overflow: hidden;
+	grid-template-columns: repeat(2, 100px);
+	grid-template-row: repeat(2, 100px);
+	
+}
