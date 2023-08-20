@@ -1,10 +1,14 @@
 
 /* Your CSS Code here. */
 .holder {
-	width: 50%;
+	width: 200px;
+	height:200px
 	display: grid;
-	background-color:red;
-	grid-template-columns: repeat(2,18px);
-	grid-template-row: repeat(2,18px);
-	
+	grid-template-columns: repeat(2,1fr);
+	grid-template-row: repeat(2, 1fr);
+}
+.item{
+	border:1px solid black;
+	padding:10px;
+	text-align:center;
 }
